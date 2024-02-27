@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0c120c;
+    overflow-x: hidden;
+
+}
+
+h3 {
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    color: #ecebf3;
+    text-shadow: 0px 0px 10px #ecebf3;
+    font-size: 2.7em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    color: #ecebf3;
+    text-shadow: 0px 0px 10px #ecebf3;
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .titrespectacle img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    h3 {
+        font-size: 1.8em;
+    }
+}
+                                        /* -- SECTION ACTU -- */
+
+.actu {
+    background-image: url(images/rideau-noir2.jpg);
+    /* z-index: 99; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-position: center;
+}
+
+.annonce-spectacle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 10px;
+    margin-bottom: 50px;
+}
+
+
+
+.titrespectacle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.titrespectacle img {
+    max-width: 450px;
+    filter: drop-shadow(0px 0px 30px rgba(236, 235, 243, 0.8));
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social img {
+    width: 35px;
+    height: 35px;
+    margin: 10px 25px;
+}
+
+.social .logogroupe-footer {
+    width: 100px;
+    height: 100px;
+    margin: 10px 25px;
+}
